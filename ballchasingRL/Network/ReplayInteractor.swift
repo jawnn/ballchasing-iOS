@@ -4,6 +4,7 @@ protocol ReplayInteractorType {
     func fetchDuelsMatchHistory(completionHandler: @escaping ([Replay]?) -> Void)
     func fetchDoublesMatchHistory(completionHandler: @escaping ([Replay]?) -> Void)
     func fetchStandardMatchHistory(completionHandler: @escaping ([Replay]?) -> Void)
+    func fetchMatchDetails(matchId: String, completionHandler: @escaping (Replay?) -> Void)
 }
 
 class ReplayInteractor: ReplayInteractorType {
@@ -58,8 +59,9 @@ class ReplayInteractor: ReplayInteractorType {
         })
     }
 
-    func fetchMatchDetails(completionHandler: @escaping (Replay?) -> Void) {
-        let resource = MatchDetailsResource()
+    func fetchMatchDetails(matchId: String, completionHandler: @escaping (Replay?) -> Void) {
+        var resource = MatchDetailsResource()
+        resource.methodPath += matchId
         let request = MatchDetailsRequest(resource: resource)
         self.request = request
 

@@ -4,12 +4,12 @@ class MatchResultRowCell: UITableViewCell {
 
     let backgroundCellView = FlexibleView(frame: .zero, color: .secondarySystemBackground)
 
-    let blueTeamLabel = TitleLabel3()
-    let blueScoreLabel = TitleLabel3()
+    let blueTeamLabel = MainLabel()
+    let blueScoreLabel = HeavyTextLabel()
     let blueTeamIcon = FlexibleView(frame: .zero, color: .systemBlue)
 
-    let orangeTeamLabel = TitleLabel3()
-    let orangeScoreLabel = TitleLabel3()
+    let orangeTeamLabel = MainLabel()
+    let orangeScoreLabel = HeavyTextLabel()
     let orangeTeamIcon = FlexibleView(frame: .zero, color: .systemOrange)
 
     let dateLabel = SubheadLabel()
@@ -40,8 +40,8 @@ class MatchResultRowCell: UITableViewCell {
         finalLabel.text = replay.overtime ? "Final/OT" : "Final"
 
         let flag = replay.blueTeam.players.contains(where: { $0.name == "bojawn" }) ? true : false
-        blueTeamLabel.text = flag ? "bojawn" : "blue"
-        orangeTeamLabel.text = flag ? "orange" : "bojawn"
+        blueTeamLabel.text = flag ? "bojawn" : "Blue"
+        orangeTeamLabel.text = flag ? "Orange" : "bojawn"
     }
 
     private func configureView() {

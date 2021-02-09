@@ -1,7 +1,7 @@
 import UIKit
 
 protocol MatchHistoryPresenterType: UITableViewDataSource {
-
+    func getSelectedReplay(index: Int) -> Replay
 }
 
 class MatchHistoryPresenter: NSObject, MatchHistoryPresenterType {
@@ -14,6 +14,19 @@ class MatchHistoryPresenter: NSObject, MatchHistoryPresenterType {
 
         model.loadProfileMatchHistory {
             view.reloadTableData()
+        }
+    }
+
+    func getSelectedReplay(index: Int) -> Replay {
+        switch view.selectedPlaylist {
+        case PlaylistType.duels.rawValue:
+            return model.duels[index]
+        case PlaylistType.doubles.rawValue:
+            return model.doubles[index]
+        case PlaylistType.standard.rawValue:
+            return model.standard[index]
+        default:
+            return model.doubles[index]
         }
     }
 
@@ -50,20 +63,3 @@ class MatchHistoryPresenter: NSObject, MatchHistoryPresenterType {
     }
 
 }
-
-// TEST
-//        let orangeScore = 3
-//        let blueScore = 1
-//
-//        cell.blueTeamLabel.text = "Blue"
-//        cell.blueTeamLabel.textColor = .tertiaryLabel
-//
-//        cell.orangeTeamLabel.text = "Orange"
-//        cell.orangeTeamLabel.textColor = .label
-//
-//        cell.orangeScoreLabel.text = "\(orangeScore)"
-//        cell.orangeScoreLabel.textColor = .label
-//        cell.blueScoreLabel.text = "\(blueScore)"
-//        cell.blueScoreLabel.textColor = .tertiaryLabel
-//        cell.dateLabel.text = "2021-02-03"
-//        cell.finalLabel.text = indexPath.row % 2 == 0 ? "Final" : "Final/OT"

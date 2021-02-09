@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D267A21425CDF64F006F125F /* RootStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D267A21325CDF64F006F125F /* RootStackView.swift */; };
+		D267A21725CE1164006F125F /* TeamComparisonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D267A21625CE1164006F125F /* TeamComparisonPresenter.swift */; };
+		D267A21A25CE116E006F125F /* TeamComparisonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D267A21925CE116E006F125F /* TeamComparisonModel.swift */; };
+		D267A21D25CE183A006F125F /* MatchDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D267A21C25CE183A006F125F /* MatchDetailPresenter.swift */; };
+		D267A22125CE184A006F125F /* MatchDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D267A22025CE184A006F125F /* MatchDetailModel.swift */; };
 		D2711FF325CA355F008333A1 /* NavigationSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2711FF225CA355E008333A1 /* NavigationSegmentControl.swift */; };
 		D2912A0E25CB8A6E007BEED5 /* TeamComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2912A0D25CB8A6E007BEED5 /* TeamComparisonViewController.swift */; };
 		D2912A1125CB8A8A007BEED5 /* BoxScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2912A1025CB8A8A007BEED5 /* BoxScoreViewController.swift */; };
 		D2912A1425CB8BAA007BEED5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2912A1325CB8BAA007BEED5 /* UIViewController+Extension.swift */; };
+		D296C4A725D3156B00FD1B67 /* MainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C4A625D3156B00FD1B67 /* MainLabel.swift */; };
+		D296C4AA25D332B200FD1B67 /* BodyTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C4A925D332B200FD1B67 /* BodyTextLabel.swift */; };
+		D296C4AD25D3338C00FD1B67 /* HeavyTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296C4AC25D3338C00FD1B67 /* HeavyTextLabel.swift */; };
 		D2C4351625CC68940037659E /* BoxScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4351525CC68940037659E /* BoxScoreCell.swift */; };
 		D2C4351925CC74790037659E /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4351825CC74790037659E /* Stat.swift */; };
 		D2C4352025CCA7480037659E /* HeaderStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4351F25CCA7480037659E /* HeaderStackView.swift */; };
 		D2C4352325CCB3DA0037659E /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4352225CCB3DA0037659E /* Int+Extensions.swift */; };
-		D2CA51DD25CB121D00C48B46 /* TitleLabel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CA51DC25CB121D00C48B46 /* TitleLabel3.swift */; };
 		D2CA51E225CB19F400C48B46 /* LineSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CA51E125CB19F400C48B46 /* LineSeparatorView.swift */; };
 		D2CA51E525CB1AA300C48B46 /* SubheadLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CA51E425CB1AA300C48B46 /* SubheadLabel.swift */; };
 		D2CA51E925CB2BEB00C48B46 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CA51E825CB2BEB00C48B46 /* Profile.swift */; };
@@ -34,6 +41,10 @@
 		D2D56FF625CA0BFF00E5FE2A /* MatchResultRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D56FF525CA0BFF00E5FE2A /* MatchResultRowCell.swift */; };
 		D2E0DAF925CB7F9A000689AB /* MatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E0DAF825CB7F9A000689AB /* MatchDetailViewController.swift */; };
 		D2E0DAFE25CB80DA000689AB /* FinalScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E0DAFD25CB80DA000689AB /* FinalScoreView.swift */; };
+		D2E9D59D25D1D4780091D852 /* MvpPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D59C25D1D4780091D852 /* MvpPlayerView.swift */; };
+		D2E9D5A025D1DA680091D852 /* BoxScorePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D59F25D1DA680091D852 /* BoxScorePresenter.swift */; };
+		D2E9D5A325D1DA730091D852 /* BoxScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D5A225D1DA730091D852 /* BoxScoreModel.swift */; };
+		D2ED497A25CDD10400545F01 /* TeamComparisonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED497925CDD10400545F01 /* TeamComparisonCell.swift */; };
 		D2FF4D7525CB51C900273AF4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF4D7425CB51C900273AF4 /* String+Extensions.swift */; };
 		D2FF4D7825CB522600273AF4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF4D7725CB522600273AF4 /* UIView+Extensions.swift */; };
 		D2FF4D7B25CB535600273AF4 /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF4D7A25CB535600273AF4 /* FlexibleView.swift */; };
@@ -42,15 +53,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D267A21325CDF64F006F125F /* RootStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootStackView.swift; sourceTree = "<group>"; };
+		D267A21625CE1164006F125F /* TeamComparisonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamComparisonPresenter.swift; sourceTree = "<group>"; };
+		D267A21925CE116E006F125F /* TeamComparisonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamComparisonModel.swift; sourceTree = "<group>"; };
+		D267A21C25CE183A006F125F /* MatchDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailPresenter.swift; sourceTree = "<group>"; };
+		D267A22025CE184A006F125F /* MatchDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailModel.swift; sourceTree = "<group>"; };
 		D2711FF225CA355E008333A1 /* NavigationSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSegmentControl.swift; sourceTree = "<group>"; };
 		D2912A0D25CB8A6E007BEED5 /* TeamComparisonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamComparisonViewController.swift; sourceTree = "<group>"; };
 		D2912A1025CB8A8A007BEED5 /* BoxScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxScoreViewController.swift; sourceTree = "<group>"; };
 		D2912A1325CB8BAA007BEED5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D296C4A625D3156B00FD1B67 /* MainLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLabel.swift; sourceTree = "<group>"; };
+		D296C4A925D332B200FD1B67 /* BodyTextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTextLabel.swift; sourceTree = "<group>"; };
+		D296C4AC25D3338C00FD1B67 /* HeavyTextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavyTextLabel.swift; sourceTree = "<group>"; };
 		D2C4351525CC68940037659E /* BoxScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxScoreCell.swift; sourceTree = "<group>"; };
 		D2C4351825CC74790037659E /* Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
 		D2C4351F25CCA7480037659E /* HeaderStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderStackView.swift; sourceTree = "<group>"; };
 		D2C4352225CCB3DA0037659E /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
-		D2CA51DC25CB121D00C48B46 /* TitleLabel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel3.swift; sourceTree = "<group>"; };
 		D2CA51E125CB19F400C48B46 /* LineSeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSeparatorView.swift; sourceTree = "<group>"; };
 		D2CA51E425CB1AA300C48B46 /* SubheadLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubheadLabel.swift; sourceTree = "<group>"; };
 		D2CA51E825CB2BEB00C48B46 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
@@ -71,6 +89,10 @@
 		D2D56FF525CA0BFF00E5FE2A /* MatchResultRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultRowCell.swift; sourceTree = "<group>"; };
 		D2E0DAF825CB7F9A000689AB /* MatchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailViewController.swift; sourceTree = "<group>"; };
 		D2E0DAFD25CB80DA000689AB /* FinalScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScoreView.swift; sourceTree = "<group>"; };
+		D2E9D59C25D1D4780091D852 /* MvpPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvpPlayerView.swift; sourceTree = "<group>"; };
+		D2E9D59F25D1DA680091D852 /* BoxScorePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxScorePresenter.swift; sourceTree = "<group>"; };
+		D2E9D5A225D1DA730091D852 /* BoxScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxScoreModel.swift; sourceTree = "<group>"; };
+		D2ED497925CDD10400545F01 /* TeamComparisonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamComparisonCell.swift; sourceTree = "<group>"; };
 		D2FF4D7425CB51C900273AF4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		D2FF4D7725CB522600273AF4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		D2FF4D7A25CB535600273AF4 /* FlexibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
@@ -93,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				D2912A1025CB8A8A007BEED5 /* BoxScoreViewController.swift */,
+				D2E9D59F25D1DA680091D852 /* BoxScorePresenter.swift */,
+				D2E9D5A225D1DA730091D852 /* BoxScoreModel.swift */,
 				D2C4351425CC67FD0037659E /* Cells */,
 			);
 			path = BoxScore;
@@ -101,7 +125,10 @@
 		D2135C2D25CC63AC00437B8A /* TeamComparison */ = {
 			isa = PBXGroup;
 			children = (
+				D2ED497825CDCF7B00545F01 /* Cells */,
 				D2912A0D25CB8A6E007BEED5 /* TeamComparisonViewController.swift */,
+				D267A21625CE1164006F125F /* TeamComparisonPresenter.swift */,
+				D267A21925CE116E006F125F /* TeamComparisonModel.swift */,
 			);
 			path = TeamComparison;
 			sourceTree = "<group>";
@@ -110,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				D2E0DAFD25CB80DA000689AB /* FinalScoreView.swift */,
+				D2E9D59C25D1D4780091D852 /* MvpPlayerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,11 +146,14 @@
 			isa = PBXGroup;
 			children = (
 				D2711FF225CA355E008333A1 /* NavigationSegmentControl.swift */,
-				D2CA51DC25CB121D00C48B46 /* TitleLabel3.swift */,
 				D2CA51E125CB19F400C48B46 /* LineSeparatorView.swift */,
-				D2CA51E425CB1AA300C48B46 /* SubheadLabel.swift */,
 				D2FF4D7A25CB535600273AF4 /* FlexibleView.swift */,
 				D2C4351F25CCA7480037659E /* HeaderStackView.swift */,
+				D267A21325CDF64F006F125F /* RootStackView.swift */,
+				D296C4A625D3156B00FD1B67 /* MainLabel.swift */,
+				D296C4A925D332B200FD1B67 /* BodyTextLabel.swift */,
+				D2CA51E425CB1AA300C48B46 /* SubheadLabel.swift */,
+				D296C4AC25D3338C00FD1B67 /* HeavyTextLabel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,11 +281,21 @@
 			isa = PBXGroup;
 			children = (
 				D2E0DAF825CB7F9A000689AB /* MatchDetailViewController.swift */,
+				D267A21C25CE183A006F125F /* MatchDetailPresenter.swift */,
+				D267A22025CE184A006F125F /* MatchDetailModel.swift */,
 				D2135C2D25CC63AC00437B8A /* TeamComparison */,
 				D2135C2C25CC639E00437B8A /* BoxScore */,
 				D2135C2F25CC63C000437B8A /* Views */,
 			);
 			path = MatchDetail;
+			sourceTree = "<group>";
+		};
+		D2ED497825CDCF7B00545F01 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D2ED497925CDD10400545F01 /* TeamComparisonCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,32 +370,43 @@
 				D2CA51E225CB19F400C48B46 /* LineSeparatorView.swift in Sources */,
 				D2FF4D7E25CB548000273AF4 /* MatchHistoryPresenter.swift in Sources */,
 				D2D56FE425C9FBDD00E5FE2A /* Replay.swift in Sources */,
+				D267A21425CDF64F006F125F /* RootStackView.swift in Sources */,
 				D2711FF325CA355F008333A1 /* NavigationSegmentControl.swift in Sources */,
 				D2D56FED25C9FF7100E5FE2A /* DuelsMatchHistory.swift in Sources */,
+				D267A22125CE184A006F125F /* MatchDetailModel.swift in Sources */,
 				D2C4351625CC68940037659E /* BoxScoreCell.swift in Sources */,
+				D267A21A25CE116E006F125F /* TeamComparisonModel.swift in Sources */,
 				D2D56FE025C9FB4A00E5FE2A /* ResultWrapper.swift in Sources */,
-				D2CA51DD25CB121D00C48B46 /* TitleLabel3.swift in Sources */,
 				D2FF4D7B25CB535600273AF4 /* FlexibleView.swift in Sources */,
+				D2E9D5A325D1DA730091D852 /* BoxScoreModel.swift in Sources */,
 				D2C4352325CCB3DA0037659E /* Int+Extensions.swift in Sources */,
 				D2FF4D8125CB54F100273AF4 /* MatchHistoryModel.swift in Sources */,
+				D296C4AD25D3338C00FD1B67 /* HeavyTextLabel.swift in Sources */,
 				D2E0DAF925CB7F9A000689AB /* MatchDetailViewController.swift in Sources */,
 				D2CA51E525CB1AA300C48B46 /* SubheadLabel.swift in Sources */,
+				D2ED497A25CDD10400545F01 /* TeamComparisonCell.swift in Sources */,
 				D2D56FE725C9FCDA00E5FE2A /* Team.swift in Sources */,
 				D2E0DAFE25CB80DA000689AB /* FinalScoreView.swift in Sources */,
 				D2D56FC925C9FAD600E5FE2A /* MatchHistoryViewController.swift in Sources */,
 				D2912A1425CB8BAA007BEED5 /* UIViewController+Extension.swift in Sources */,
 				D2C4352025CCA7480037659E /* HeaderStackView.swift in Sources */,
+				D296C4A725D3156B00FD1B67 /* MainLabel.swift in Sources */,
 				D2912A1125CB8A8A007BEED5 /* BoxScoreViewController.swift in Sources */,
+				D267A21D25CE183A006F125F /* MatchDetailPresenter.swift in Sources */,
 				D2912A0E25CB8A6E007BEED5 /* TeamComparisonViewController.swift in Sources */,
+				D2E9D59D25D1D4780091D852 /* MvpPlayerView.swift in Sources */,
 				D2CA51E925CB2BEB00C48B46 /* Profile.swift in Sources */,
 				D2D56FEA25C9FD2A00E5FE2A /* Player.swift in Sources */,
 				D2D56FC525C9FAD600E5FE2A /* AppDelegate.swift in Sources */,
 				D2FF4D7825CB522600273AF4 /* UIView+Extensions.swift in Sources */,
+				D296C4AA25D332B200FD1B67 /* BodyTextLabel.swift in Sources */,
 				D2FF4D7525CB51C900273AF4 /* String+Extensions.swift in Sources */,
 				D2D56FF625CA0BFF00E5FE2A /* MatchResultRowCell.swift in Sources */,
 				D2D56FDB25C9FB1500E5FE2A /* NetworkRequest.swift in Sources */,
+				D2E9D5A025D1DA680091D852 /* BoxScorePresenter.swift in Sources */,
 				D2C4351925CC74790037659E /* Stat.swift in Sources */,
 				D2D56FC725C9FAD600E5FE2A /* SceneDelegate.swift in Sources */,
+				D267A21725CE1164006F125F /* TeamComparisonPresenter.swift in Sources */,
 				D2D56FF025CA079400E5FE2A /* ReplayInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

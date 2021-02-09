@@ -1,12 +1,12 @@
 import UIKit
 
-class TitleLabel3: UILabel {
+class HeavyTextLabel: UILabel {
 
     override init(frame: CGRect) {
         super.init(frame: .zero)
 
         textColor = .label
-        font = .systemFont(ofSize: 17, weight: .bold)
+        font = .systemFont(ofSize: 17, weight: .heavy)
         translatesAutoresizingMaskIntoConstraints = false
     }
 

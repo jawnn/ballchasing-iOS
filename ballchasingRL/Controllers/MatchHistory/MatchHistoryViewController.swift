@@ -67,6 +67,11 @@ extension MatchHistoryViewController: UITableViewDelegate {
             cell.backgroundCellView.alpha = 1
         }
 
+        let viewController = MatchDetailViewController()
+        let model = MatchDetailModel(replay: presenter.getSelectedReplay(index: indexPath.row))
+        let presenter = MatchDetailPresenter(view: viewController, model: model)
+        viewController.presenter = presenter
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }
 

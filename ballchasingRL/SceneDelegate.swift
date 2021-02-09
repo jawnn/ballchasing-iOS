@@ -20,12 +20,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             return
         }
         let window = UIWindow(windowScene: windowScene)
-        let vc = MatchDetailViewController()
-//        let model = MatchHistoryModel()
-//        let presenter = MatchHistoryPresenter(view: vc, model: model)
-//        vc.presenter = presenter
-//        let nav = UINavigationController(rootViewController: vc)
-        window.rootViewController = vc
+        let view = MatchHistoryViewController()
+        let model = MatchHistoryModel()
+        let presenter = MatchHistoryPresenter(view: view, model: model)
+        view.presenter = presenter
+        let nav = UINavigationController(rootViewController: view)
+        window.rootViewController = nav
         window.makeKeyAndVisible()
         self.window = window
     }

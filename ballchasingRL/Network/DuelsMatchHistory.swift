@@ -40,6 +40,6 @@ struct MatchDetailsResource: APIResource {
     typealias ModelType = Replay
     var scheme: String = "https"
     var host: String = "ballchasing.com"
-    var methodPath: String = "/api/replays/c89c4888-4e28-4f36-b6da-03f007f49e86"
+    var methodPath: String = "/api/replays/"
     var queryItems: [URLQueryItem] = []
 }

@@ -10,4 +10,5 @@ struct Team: Codable {
         case players
         case stats
     }
+
 }

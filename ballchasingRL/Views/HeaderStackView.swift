@@ -2,14 +2,16 @@ import UIKit
 
 class HeaderStackView: UIStackView {
 
-    init(frame: CGRect, header: String) {
+    init(frame: CGRect = .zero, header: String, headerAlignment: NSTextAlignment = .center) {
         super.init(frame: frame)
 
         spacing = 4
         axis = .vertical
-        let headerLabel = UILabel()
+        distribution = .fillEqually
+        let headerLabel = BodyTextLabel()
         headerLabel.text = header
-        headerLabel.textAlignment = .center
+        headerLabel.textColor = .label
+        headerLabel.textAlignment = headerAlignment
         addArrangedSubview(headerLabel)
         translatesAutoresizingMaskIntoConstraints = false
     }
