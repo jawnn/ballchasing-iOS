@@ -6,7 +6,7 @@ struct DuelsMatchHistory: APIResource {
     var host: String = "ballchasing.com"
     var methodPath: String = "/api/replays"
     var queryItems: [URLQueryItem] = [
-        URLQueryItem(name: "uploader", value: "76561198025496206"),
+        URLQueryItem(name: "uploader", value: Profile.currentUser.uploaderId),
         URLQueryItem(name: "playlist", value: "ranked-duels"),
         URLQueryItem(name: "replay-date-after", value: "2021-01-01T01:30:13Z")
     ]
@@ -18,7 +18,7 @@ struct DoublesMatchHistory: APIResource {
     var host: String = "ballchasing.com"
     var methodPath: String = "/api/replays"
     var queryItems: [URLQueryItem] = [
-        URLQueryItem(name: "uploader", value: "76561198025496206"),
+        URLQueryItem(name: "uploader", value: Profile.currentUser.uploaderId),
         URLQueryItem(name: "playlist", value: "ranked-doubles"),
         URLQueryItem(name: "replay-date-after", value: "2021-01-01T01:30:13Z")
     ]
@@ -30,7 +30,7 @@ struct StandardMatchHistory: APIResource {
     var host: String = "ballchasing.com"
     var methodPath: String = "/api/replays"
     var queryItems: [URLQueryItem] = [
-        URLQueryItem(name: "uploader", value: "76561198025496206"),
+        URLQueryItem(name: "uploader", value: Profile.currentUser.uploaderId),
         URLQueryItem(name: "playlist", value: "ranked-standard"),
         URLQueryItem(name: "replay-date-after", value: "2021-01-01T01:30:13Z")
     ]

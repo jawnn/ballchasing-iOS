@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  ballchasingRL
-//
-//  Created by Roberto Manese III on 2/2/21.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -19,13 +12,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else {
             return
         }
+
+        let matchHistoryViewController: UINavigationController = {
+            let viewController = MatchHistoryViewController()
+            let model = MatchHistoryModel()
+            let presenter = MatchHistoryPresenter(view: viewController, model: model)
+            viewController.presenter = presenter
+            let nav = UINavigationController(rootViewController: viewController)
+            return nav
+        }()
+
+        let newUserViewController: UIViewController = {
+            let viewController = NewUserViewController()
+            return viewController
+        }()
+
         let window = UIWindow(windowScene: windowScene)
-        let view = MatchHistoryViewController()
-        let model = MatchHistoryModel()
-        let presenter = MatchHistoryPresenter(view: view, model: model)
-        view.presenter = presenter
-        let nav = UINavigationController(rootViewController: view)
-        window.rootViewController = nav
+        window.rootViewController = newUserViewController
         window.makeKeyAndVisible()
         self.window = window
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D239061225DDFA22007A384D /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239061125DDFA22007A384D /* NewUserViewController.swift */; };
 		D267A21425CDF64F006F125F /* RootStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D267A21325CDF64F006F125F /* RootStackView.swift */; };
 		D267A21725CE1164006F125F /* TeamComparisonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D267A21625CE1164006F125F /* TeamComparisonPresenter.swift */; };
 		D267A21A25CE116E006F125F /* TeamComparisonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D267A21925CE116E006F125F /* TeamComparisonModel.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D239061125DDFA22007A384D /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
 		D267A21325CDF64F006F125F /* RootStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootStackView.swift; sourceTree = "<group>"; };
 		D267A21625CE1164006F125F /* TeamComparisonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamComparisonPresenter.swift; sourceTree = "<group>"; };
 		D267A21925CE116E006F125F /* TeamComparisonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamComparisonModel.swift; sourceTree = "<group>"; };
@@ -142,6 +144,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D239061025DDF579007A384D /* NewUser */ = {
+			isa = PBXGroup;
+			children = (
+				D239061125DDFA22007A384D /* NewUserViewController.swift */,
+			);
+			path = NewUser;
+			sourceTree = "<group>";
+		};
 		D2711FF125CA3537008333A1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +190,7 @@
 		D2CA51ED25CB4BA200C48B46 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D239061025DDF579007A384D /* NewUser */,
 				D2CA51EE25CB4BB200C48B46 /* MatchHistory */,
 				D2E0DAF725CB7F74000689AB /* MatchDetail */,
 			);
@@ -401,6 +412,7 @@
 				D2FF4D7825CB522600273AF4 /* UIView+Extensions.swift in Sources */,
 				D296C4AA25D332B200FD1B67 /* BodyTextLabel.swift in Sources */,
 				D2FF4D7525CB51C900273AF4 /* String+Extensions.swift in Sources */,
+				D239061225DDFA22007A384D /* NewUserViewController.swift in Sources */,
 				D2D56FF625CA0BFF00E5FE2A /* MatchResultRowCell.swift in Sources */,
 				D2D56FDB25C9FB1500E5FE2A /* NetworkRequest.swift in Sources */,
 				D2E9D5A025D1DA680091D852 /* BoxScorePresenter.swift in Sources */,
